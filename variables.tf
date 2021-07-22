@@ -3,7 +3,8 @@
 // ----------------------------------------------------------------------------
 variable "region" {
   description = "AWS region code for creating resources."
-  type = "ap-northeast-2"
+  type = string
+  default = "ap-northeast-2"
 }
 
 variable "cluster_version" {
@@ -45,11 +46,11 @@ variable "jx_git_url" {
 variable "jx_bot_username" {
   description = "Bot username used to interact with the Jenkins X cluster git repository"
   type        = string
-  default     = "gpfk1015"
+  default     = "skek9686"
 }
 
 variable "jx_bot_token" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
-  default     = "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"
+  default     = "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"
 }
