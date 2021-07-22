@@ -1,5 +1,5 @@
 module "eks-jx" {
-  source          = "github.com/jenkins-x/terraform-aws-eks-jx?ref=v1.15.12"
+  source          = "/home/ec2-user/terraform-aws-eks-jx-1.15.12"
   cluster_name    = var.cluster_name
   cluster_version = var.cluster_version
   region          = var.region 
